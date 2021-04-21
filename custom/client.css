@@ -176,6 +176,7 @@ select option {
     height:60px;
     border-radius: 5px;
     padding: 10px;
+    background-color: #52d152;
 }
 
 /* overrides extra padding on button elements in Firefox */
