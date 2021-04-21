@@ -79,6 +79,10 @@ h1 {
     flex-direction: column;
 }
 
+.token_tr{
+    margin-top: 1rem
+}
+
 #chatMessages
 {
     height: 206px; 
