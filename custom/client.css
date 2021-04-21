@@ -32,6 +32,7 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 /* -------------------------------------------------------------------------- */
@@ -44,7 +45,7 @@ h1 {
     width:70px; padding-right: 30px;
 }
 #bottomBar {
-    width: 80%;
+    width: 639px;
     margin: 6px 0px 0px 15px;
     padding: 15px 0px 15px 0px;
     font: Helvetica,Arial,sans-serif;
@@ -72,9 +73,8 @@ h1 {
 {
     flex-direction: column;
     margin-top: 6px;
-    height: 290px;
+    height: 400px;
     width: 80%;
-    margin-left: 15px;
     padding: 6px;
     border-width: 1px;
     border-radius: 6px;
@@ -112,10 +112,9 @@ select option {
 #logBox
 {
     flex-direction: column;
-    height: 296px;
+    height: 400px;
     width: 80%; 
     margin-top: 6px;
-    margin-left: 15px;
     padding: 6px;
     border-width: 1px;
     border-radius: 6px;
