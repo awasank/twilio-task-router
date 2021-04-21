@@ -68,10 +68,10 @@ h1 {
 /* -------------------------------------------------------------------------- */
 #chatBox
 {
+    flex-direction: column;
     margin-top: 6px;
     height: 290px;
     width: 624px;
-    border: solid #70ce80;
     margin-left: 15px;
     padding: 6px;
     border-width: 1px;
@@ -109,9 +109,9 @@ select option {
 /* -------------------------------------------------------------------------- */
 #logBox
 {
+    flex-direction: column;
     height: 296px;
     width: 624px; 
-    border: solid #52d152;
     margin-top: 6px;
     margin-left: 15px;
     padding: 6px;
