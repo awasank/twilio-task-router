@@ -132,7 +132,7 @@ select option {
 .btn_grid{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    grid-gap: 50px;
+    grid-gap: 20px 50px;
 }
 
 .abutton {
@@ -175,5 +175,13 @@ button#clearLog::-moz-focus-inner {
     padding: 0;
     border: 0;
 }
+
+
+@media screen and (max-width: 550px) {
+    #chatBox {
+        height: 700px;
+        
+    }
+  }
 
 /* -------------------------------------------------------------------------- */
