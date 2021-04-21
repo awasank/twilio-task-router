@@ -81,6 +81,15 @@ h1 {
     border-radius: 6px;
 }
 
+.worker_table{
+    display: flex;
+    flex-direction:column;
+}
+
+.worker_table > table {
+    flex-direction: column;
+}
+
 #chatMessages
 {
     height: 206px; 
