@@ -175,9 +175,9 @@ button#clearLog::-moz-focus-inner {
 }
 
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 710px) {
     #chatBox {
-        height: 700px;
+        min-height: 700px;
 
     }
   }
