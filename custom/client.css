@@ -134,7 +134,7 @@ select option {
 #log
 {
     height: 196px; 
-    width: 616px;
+    width: 100%;
     margin: 3px 3px 3px 0px;
     padding: 3px;
 }
