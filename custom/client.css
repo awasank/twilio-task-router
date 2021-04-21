@@ -69,12 +69,12 @@ h1 {
 
 .workerbtn_margin{
     margin-top: 1rem;
-    padding-top:1rem;
 }
 
 .worker_table{
     display: flex;
     flex-direction:column;
+    margin-bottom: 5rem;
 }
 
 .worker_table > table {
