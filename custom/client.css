@@ -40,7 +40,7 @@ h1 {
 .panelTitle
 {
     color: white;
-    background: black;
+    background: #53974c;
     padding: 9px;
     font: Helvetica,Arial,sans-serif;
     font-size: 14px; 
@@ -141,12 +141,11 @@ select option {
     color: white;
     background-color: #52d152;
     font: Helvetica,Arial,sans-serif;
-    font-size: 0.7em; 
+    font-size: 1rem; 
 }
 .abutton:hover,
 .abutton:focus {
     background-color: #52d152;  /* hover background color */
-    color: #fff;                /* hover text */
     border-color: #52d152;      /* top hover border */
     text-decoration: none;
     text-shadow: 1px 1px rgba(0,0,0,0.3);
@@ -167,6 +166,7 @@ select option {
     border-radius: 5px;
     padding: 10px;
     background-color: #52d152;
+    font-size: 1rem;
 }
 
 /* overrides extra padding on button elements in Firefox */
