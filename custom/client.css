@@ -32,7 +32,7 @@ h1 {
     align-items: center;
     flex-direction: column;
     min-width: 600px;
-    background-color: rgba(134, 134, 134, 0);
+    background-color: black;
 }
 
 /* -------------------------------------------------------------------------- */
