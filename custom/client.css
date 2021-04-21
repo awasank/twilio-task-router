@@ -166,13 +166,8 @@ select option {
     border-bottom-color: #3884CF;
 }
 .abutton:disabled {
-    width: 80px;
-    height: 40px;
-    border-radius: 9px;
     color: red;
     background-color: #cccccc;
-    font: Helvetica,Arial,sans-serif;
-    font-size: 0.7em; 
 }
 
 /* overrides extra padding on button elements in Firefox */
