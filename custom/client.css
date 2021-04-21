@@ -146,7 +146,7 @@ select option {
 .abutton {
     width: 100%;
     height: 60px;
-    border-radius: 9px;
+    border-radius: 5px;
     color: white;
     background-color: #52d152;
     font: Helvetica,Arial,sans-serif;
@@ -168,6 +168,13 @@ select option {
 .abutton:disabled {
     color: red;
     background-color: #cccccc;
+}
+
+.clear_btn{
+    width:200px;
+    height:60px;
+    border-radius: 5px;
+    padding: 10px;
 }
 
 /* overrides extra padding on button elements in Firefox */
