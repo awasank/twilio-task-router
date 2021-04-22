@@ -8,7 +8,7 @@
 
 body{
     width: 100%;
-    min-height: 110vh;
+    min-height: 100vh;
 }
 
 a {
@@ -61,7 +61,7 @@ textarea{
 .panelArea
 {
     margin-top: 6px;
-    max-width: 600px;
+    max-width: 900px;
     min-width: 300px;
 }
 /* -------------------------------------------------------------------------- */
