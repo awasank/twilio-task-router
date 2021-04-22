@@ -40,6 +40,7 @@ h1 {
     min-width: 600px;
     background-color: #d4d4d4;
     height:100%;
+    vertical-align: top;
 }
 
 /* -------------------------------------------------------------------------- */
@@ -90,7 +91,7 @@ h1 {
     height: 100%;
     min-width: 200px;
     max-width: 250px;
-    background-color: rgb(217, 235, 217);
+    background-color: rgb(196, 209, 196);
 }
 
 .workerbtn_margin{
