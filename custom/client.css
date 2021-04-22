@@ -39,6 +39,7 @@ h1 {
     min-width: 600px;
     background-color: #d4d4d4;
     height:100%;
+    width: 80%;
 }
 
 /* -------------------------------------------------------------------------- */
@@ -65,11 +66,28 @@ h1 {
     margin: 1rem 0 5rem 0;
     min-height: 350px;
     max-height: 700px;
-    width: 80%;
+    width: 100%;
     border: solid 1px rgba(119, 119, 119, 0.333);
     padding: 6px;
     border-width: 1px;
     border-radius: 6px;
+    background-color: whitesmoke;
+}
+
+.banner{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0 1rem 0;
+}
+
+.banner > img {
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 400px;
     background-color: whitesmoke;
 }
 
@@ -87,10 +105,10 @@ h1 {
     flex-direction: column;
 }
 
-.token_tr{
+.spacing_tr{
     height: 3rem;
     width: 100%;
-    margin-top: 1rem
+    margin: 0.5rem 0 0.5rem 0;
 }
 
 #chatMessages

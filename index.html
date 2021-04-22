@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>TR Worker</title>
+        <title>Plastk Customer Service</title>
         <link href="custom/favicon.ico" rel="shortcut icon" type="image/x-icon">
         <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
         <script src="https://media.twiliocdn.com/sdk/js/client/releases/1.5.1/twilio.min.js"></script>
@@ -51,9 +51,12 @@
     <body>
         <script type="text/javascript" src="custom/pageTop.js"></script>
         <div class="container">
+            <div class="banner">
+                <img src="./custom/plastk.png" alt="banner"/>
+            </div>
             <div id="chatBox" style="height: 260px">
                 <div class="panelTitle">
-                    Worker test
+                    Worker
                 </div>
                 <div class="panelArea" style="margin-top: 6px;">
                     <table>
@@ -63,7 +66,7 @@
                 </div>
                 <div>
                     <table class="worker_table">
-                        <tr>
+                        <tr class="spacing_tr">
                             <td><div>WorkSpace: </div></td>
                             <td colspan="5"><div>Not set.</div></td>
                         </tr>
@@ -80,7 +83,7 @@
                             <!-- td><button class="abutton" id="btn-trHangup" onclick="trHangup();" disabled style="visibility: visible;">End reservation</button></td -->
                             <td><button class="abutton" id="btn-endconf" onclick="endConference();" disabled style="visibility: visible;">End conference</button></td>
                         </tr>
-                        <tr class="token_tr">
+                        <tr class="spacing_tr">
                             <td><div>TaskRouter: </div></td>
                             <td><div>Need to refresh the token.</div></td>
                         </tr>
