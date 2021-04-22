@@ -9,6 +9,7 @@
 body{
     width: 100%;
     min-height: 100vh;
+    vertical-align: top;
 }
 
 a {
@@ -77,6 +78,7 @@ textarea{
     border-width: 1px;
     border-radius: 6px;
     background-color: whitesmoke;
+    vertical-align: top;
 }
 
 .banner{
