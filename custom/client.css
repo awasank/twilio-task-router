@@ -1,9 +1,13 @@
 /*  HTML Links -----------------------------------------------------------------
 
 */
+*{
+    margin:0;
+}
+
 body{
     width: 100%;
-    height: 120vh;
+    height: 100vh;
 }
 
 a {
@@ -188,6 +192,10 @@ button#clearLog::-moz-focus-inner {
 
 
 @media screen and (max-width: 710px) {
+
+    body{
+        height: 100%;
+    }
     #chatBox {
         min-height: 500px;
 
