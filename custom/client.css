@@ -32,6 +32,10 @@ h1 {
     font-size: 2.3em;
 }
 
+textarea{
+    width: 100%;
+}
+
 .container{
     display: flex;
     justify-content: center;
