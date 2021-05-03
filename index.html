@@ -52,61 +52,73 @@
     </head>
     <body>
         <script type="text/javascript" src="custom/pageTop.js"></script>
-        <h1>Hello</h1>
-        <div class="container">
-            <div class="banner">
-                <img src="./custom/plastk.png" alt="banner"/>
+        <div class="row">
+            <div class="column">
+                <h1>Hello</h1>
+                <div class="container">
+                    <div class="banner">
+                        <img src="./custom/plastk.png" alt="banner"/>
+                    </div>
+                    <div id="chatBox" style="height: 260px">
+                        <div class="panelTitle">
+                            Customer Representative
+                        </div>
+                        <div class="panelArea" style="margin-top: 6px;">
+                            <table>
+                                <tr><td> <label for="clientid"> Identity </label>  </td><td><input id="clientid" type="text"/></td><td><div class="msgClientid">Set Client ID.</div></td></tr>
+                                <tr><td><label for="tokenPassword"> Password </label> </td><td><input type="password" id="tokenPassword" name="tokenPassword" placeholder="Your access password"/></td><td><div class="msgTokenPassword"></div></tr>
+                            </table>
+                        </div>
+                        <div>
+                            <table class="worker_table">
+                                <tr class="spacing_tr">
+                                    <td><div>WorkSpace: </div></td>
+                                    <td colspan="5"><div>Not set.</div></td>
+                                </tr>
+                                <tr>
+                                    <td><div>Worker status: </div></td>
+                                    <td colspan="5"><div>Requires an access token.</div></td>
+                                </tr>
+                                <tr class="btn_grid workerbtn_margin">
+                                    <td><button class="abutton" id="btn-trtoken" onclick="trToken();" style="visibility: visible;">Get access token</button></td>
+                                    <td><button class="abutton" id="btn-online" onclick="goAvailable();" disabled style="visibility: visible;">Go online</button></td>
+                                    <td><button class="abutton" id="btn-offline" onclick="goOffline();" disabled style="visibility: visible;">Go offline</button></td>
+                                    <td><button class="abutton" id="btn-acceptTR" onclick="acceptReservation();" disabled style="visibility: visible;">Accept</button></td>
+                                    <td><button class="abutton" id="btn-rejectTR" onclick="rejectReservation();" disabled style="visibility: visible;">Reject</button></td>
+                                    <!-- td><button class="abutton" id="btn-trHangup" onclick="trHangup();" disabled style="visibility: visible;">End reservation</button></td -->
+                                    <td><button class="abutton" id="btn-endconf" onclick="endConference();" disabled style="visibility: visible;">End conference</button></td>
+                                </tr>
+                                <tr class="spacing_tr">
+                                    <td><div>TaskRouter: </div></td>
+                                    <td><div>Need to refresh the token.</div></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <div id="logBox">
+                        <div class="panelTitle">Log messages</div>
+                        <div class="panelArea">
+                            <textarea id="log"></textarea>
+                        </div>
+                        <div>
+                            <table>
+                                <tr>
+                                    <td><button class="clear_btn" id="clearLog" onclick="clearLog();">Clear</button></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            
+            
+            
             </div>
-            <div id="chatBox" style="height: 260px">
-                <div class="panelTitle">
-                    Customer Representative
-                </div>
-                <div class="panelArea" style="margin-top: 6px;">
-                    <table>
-                        <tr><td> <label for="clientid"> Identity </label>  </td><td><input id="clientid" type="text"/></td><td><div class="msgClientid">Set Client ID.</div></td></tr>
-                        <tr><td><label for="tokenPassword"> Password </label> </td><td><input type="password" id="tokenPassword" name="tokenPassword" placeholder="Your access password"/></td><td><div class="msgTokenPassword"></div></tr>
-                    </table>
-                </div>
-                <div>
-                    <table class="worker_table">
-                        <tr class="spacing_tr">
-                            <td><div>WorkSpace: </div></td>
-                            <td colspan="5"><div>Not set.</div></td>
-                        </tr>
-                        <tr>
-                            <td><div>Worker status: </div></td>
-                            <td colspan="5"><div>Requires an access token.</div></td>
-                        </tr>
-                        <tr class="btn_grid workerbtn_margin">
-                            <td><button class="abutton" id="btn-trtoken" onclick="trToken();" style="visibility: visible;">Get access token</button></td>
-                            <td><button class="abutton" id="btn-online" onclick="goAvailable();" disabled style="visibility: visible;">Go online</button></td>
-                            <td><button class="abutton" id="btn-offline" onclick="goOffline();" disabled style="visibility: visible;">Go offline</button></td>
-                            <td><button class="abutton" id="btn-acceptTR" onclick="acceptReservation();" disabled style="visibility: visible;">Accept</button></td>
-                            <td><button class="abutton" id="btn-rejectTR" onclick="rejectReservation();" disabled style="visibility: visible;">Reject</button></td>
-                            <!-- td><button class="abutton" id="btn-trHangup" onclick="trHangup();" disabled style="visibility: visible;">End reservation</button></td -->
-                            <td><button class="abutton" id="btn-endconf" onclick="endConference();" disabled style="visibility: visible;">End conference</button></td>
-                        </tr>
-                        <tr class="spacing_tr">
-                            <td><div>TaskRouter: </div></td>
-                            <td><div>Need to refresh the token.</div></td>
-                        </tr>
-                    </table>
-                </div>
-            </div>
-            <div id="logBox">
-                <div class="panelTitle">Log messages</div>
-                <div class="panelArea">
-                    <textarea id="log"></textarea>
-                </div>
-                <div>
-                    <table>
-                        <tr>
-                            <td><button class="clear_btn" id="clearLog" onclick="clearLog();">Clear</button></td>
-                        </tr>
-                    </table>
-                </div>
+            <div class="column">
+                <h1>Hello</h1>
             </div>
         </div>
+        
+        
         <script type="text/javascript" src="custom/pageBottom.js"></script>
     </body>
 </html>
