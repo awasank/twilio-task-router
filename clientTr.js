@@ -298,9 +298,9 @@ function trToken() {
             });
         // $.post()
         logger("This is a test")  
-        logger("Making is yet another post request")      
+        logger("Making yet yet another post request")      
         $.ajax("https://539830097051.ngrok.io/ivr/worker/fetch-caller-details", {
-            data: JSON.stringify({number: "1123"}),
+            data: JSON.stringify({number: "4035543710"}),
             contentType : 'application/json',
             type : 'POST',
             success: function (response) {
