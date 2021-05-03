@@ -1,0 +1,24 @@
+{
+  "name": "taskrouter",
+  "version": "1.0.0",
+  "description": "With Twilio Studio and TaskRouter, in less than two hours, you can set up a call flow, which is the bases of a call center.",
+  "main": "clientTr.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sheikplastk/taskrouter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sheikplastk/taskrouter/issues"
+  },
+  "homepage": "https://github.com/sheikplastk/taskrouter#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "request": "^2.88.2"
+  }
+}
