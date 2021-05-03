@@ -303,6 +303,10 @@ function trToken() {
             data: JSON.stringify({number: "1123"}),
             contentType : 'application/json',
             type : 'POST',
+            success: function (response) {
+                logger("Got a response back")
+                logger(response)
+            }
         })    
 }
 
