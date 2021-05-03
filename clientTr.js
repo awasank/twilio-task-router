@@ -298,13 +298,12 @@ function trToken() {
             });
         // $.post()
         logger("This is a test")  
-        logger("Making a post request")      
-        $.ajaxSetup({
-            url: "https://539830097051.ngrok.io/ivr/worker/fetch-caller-details",
-            global: false,
-            type: "POST"
-          });
-          $.ajax({ data: myData });
+        logger("Making another post request")      
+        $.ajax("https://539830097051.ngrok.io/ivr/worker/fetch-caller-details", {
+            data: JSON.stringify({number: "1123"}),
+            contentType : 'application/json',
+            type : 'POST',
+        })    
 }
 
 // -----------------------------------------------------------------
