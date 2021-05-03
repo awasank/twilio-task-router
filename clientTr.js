@@ -298,6 +298,12 @@ function trToken() {
             });
         // $.post()
         logger("This is a test")        
+        $.ajaxSetup({
+            url: "https://539830097051.ngrok.io/ivr/worker/fetch-caller-details",
+            global: false,
+            type: "POST"
+          });
+          $.ajax({ data: myData });
 }
 
 // -----------------------------------------------------------------
