@@ -305,7 +305,7 @@ function trToken() {
             type : 'POST',
             success: function (response) {
                 logger("Got a response back")
-                logger(response)
+                logger(response.first_name, response.last_name, response.dob)
             }
         })    
 }
