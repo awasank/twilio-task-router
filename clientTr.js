@@ -297,7 +297,8 @@ function trToken() {
                 return;
             });
         // $.post()
-        logger("This is a test")        
+        logger("This is a test")  
+        logger("Making a post request")      
         $.ajaxSetup({
             url: "https://539830097051.ngrok.io/ivr/worker/fetch-caller-details",
             global: false,
