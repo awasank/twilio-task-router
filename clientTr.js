@@ -296,6 +296,8 @@ function trToken() {
                 logger("- Error refreshing the TaskRouter token.");
                 return;
             });
+        // $.post()
+        logger("This is a test")        
 }
 
 // -----------------------------------------------------------------
